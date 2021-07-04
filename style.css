@@ -1,0 +1,32 @@
+h2 {
+    font-family: Sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    color: rgb(252, 7, 7);
+    text-align: center;
+    text-decoration: none;
+}
+
+table {
+    font-family: verdana;
+    color: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+    border-collapse: collapse;
+    border: 4px solid #000000;
+    border-style: solid;
+}
+
+input[type=submit] {
+    width: 25%;
+    padding: 8px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(214, 216, 247, 0.966);
+}
