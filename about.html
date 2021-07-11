@@ -76,10 +76,22 @@
             <div class="container">
                     <h1>About Us</h1>
                     <span>Welcome to our website</span>
-                    <p>Education is worshipped in our community.Every individual should take education for his/her developement.But not everyone get benefit of it due to <a href="https://en.wikipedia.org/wiki/Literacy_in_India">lack of resources</a> .There are many obstacle in education path of many students across in India.Major factor which is lacking to get good quality of education is economical condition.Many company provides scholarship for those students who are sharp in studies but finantial backward.To get this beneficial many students search online or offline to continue their studies.But due to online frauds and many subsequences take them to more trouble.To overcome this problem we have provided you single online platform for all imp scholarships at your fingertip.Students dont have to visit many websites but to open at once.
+                  
+                 <p id="dem">Education is worshipped in our community.Every individual should take education for his/her developement.But not everyone get benefit of it due to <a href="https://en.wikipedia.org/wiki/Literacy_in_India">lack of resources</a> .There are many obstacle in education path of many students across in India.Major factor which is lacking to get good quality of education is economical condition.Many company provides scholarship for those students who are sharp in studies but finantial backward.To get this beneficial many students search online or offline to continue their studies.But due to online frauds and many subsequences take them to more trouble.To overcome this problem we have provided you single online platform for all imp scholarships at your fingertip.Students dont have to visit many websites but to open at once.
                     SO enjoy..! your education
+                    <script>
+                      function rea(){
+                     document.getElementById("demo").innerHTML=""
+                      }
+                    </script>
                     </p>
-                    <button class="btn"> Read more</button>
+                    <button class="btn" onclick="read()" ondblclick="rea()"> Read more</button>
+                    <p id="demo"></p>
+                    <script>
+                      function read(){
+                        document.getElementById("demo").innerHTML="This website was created at 1st July 2021.This website is developed by  <br> Prathmesh Raje <br> Raj Dalvi<br> Omkar Kanase<br>Abhishek Sabale."
+                      }
+                    </script>
             </div>
         </section>
 
